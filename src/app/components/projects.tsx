@@ -20,9 +20,6 @@ export default function Projects() {
     
       <div className="img ">
 
-
-
-
 <Image src={project_1}  alt="img"/>
 
       </div>

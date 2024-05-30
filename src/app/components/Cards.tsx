@@ -27,7 +27,7 @@ export default function Cards() {
 
     
       <InfiniteMovingCards
-        items={testimonials}
+         items={testimonials as { quote: string; name: string; title: string }[]}
         direction="right"
         speed="slow"
   
